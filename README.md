@@ -39,19 +39,6 @@ sunspot_dataframe.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -184,19 +171,6 @@ dataframe_copy.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -268,7 +242,7 @@ data_peaks = sunspot_plot(sunspot_dataframe)
 
 
     
-![png](output_14_0.png)
+![png](images/output_14_0.png)
     
 
 
@@ -309,7 +283,7 @@ draw_boxplot(sunspot_dataframe, data_peaks)
 
 
     
-![png](output_18_0.png)
+![png](images/output_18_0.png)
     
 
 
@@ -339,7 +313,7 @@ draw_autocorrelation_plot(dataframe_copy)
 
 
     
-![png](output_22_0.png)
+![png](images/output_22_0.png)
     
 
 
@@ -366,7 +340,7 @@ draw_histogram(dataframe_copy)
 
 
     
-![png](output_26_0.png)
+![png](images/output_26_0.png)
     
 
 
